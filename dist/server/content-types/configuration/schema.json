@@ -1,0 +1,60 @@
+{
+    "kind": "singleType",
+    "collectionName": "configurations",
+    "info": {
+        "singularName": "configuration",
+        "pluralName": "configurations",
+        "displayName": "Mercadopago Config"
+    },
+    "options": {
+        "draftAndPublish": false,
+        "comment": ""
+    },
+    "attributes": {
+        "active": {
+            "type": "boolean",
+            "default": false,
+            "required": true
+        },
+        "token": {
+            "type": "string",
+            "required": true,
+            "private": true
+        },
+        "default_currency": {
+            "type": "string",
+            "required": true,
+            "private": true
+        },
+        "back_urls": {
+            "type": "string",
+            "required": true,
+            "private": true
+        },
+        "webhook_pass": {
+            "type": "string",
+            "required": true,
+            "private": true
+        },
+        "notification_url": {
+            "type": "string",
+            "required": true,
+            "private": true
+        },
+        "bussiness_description": {
+            "type": "string",
+            "required": true,
+            "private": true
+        },
+        "send_emails": {
+            "type": "boolean",
+            "required": true,
+            "private": true
+        },
+        "email": {
+            "type": "string",
+            "required": true,
+            "private": true
+        }
+    }
+}

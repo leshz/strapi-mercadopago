@@ -1,0 +1,67 @@
+{
+    "collectionName": "components_mercadopago_shopper",
+    "category": "mercadolibre",
+    "modelName": "shopper",
+    "modelType": "component",
+    "globalId": "ComponentMercadolibreShopper",
+    "uid": "mercadolibre.shopper",
+    "info": {
+        "displayName": "shopper",
+        "icon": "user"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true
+        },
+        "last_name": {
+            "type": "string",
+            "required": true
+        },
+        "dni": {
+            "type": "biginteger",
+            "required": true
+        },
+        "phone": {
+            "type": "biginteger",
+            "required": true
+        },
+        "email": {
+            "type": "email",
+            "required": true
+        }
+    },
+    "__filename__": "shopper.json",
+    "__schema__": {
+        "collectionName": "components_mercadopago_shopper",
+        "info": {
+            "displayName": "shopper",
+            "icon": "user"
+        },
+        "options": {},
+        "attributes": {
+            "name": {
+                "type": "string",
+                "required": true
+            },
+            "last_name": {
+                "type": "string",
+                "required": true
+            },
+            "dni": {
+                "type": "biginteger",
+                "required": true
+            },
+            "phone": {
+                "type": "biginteger",
+                "required": true
+            },
+            "email": {
+                "type": "email",
+                "required": true
+            }
+        },
+        "__filename__": "shopper.json"
+    }
+}
